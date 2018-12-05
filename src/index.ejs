@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Remolino Town</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Arvo:400,700|Lato:400,700" rel="stylesheet"> -->
+        <meta charset="utf8">
+    </head>
+    <body>
+        <div class="rt-header">
+            <h1 class="rt-header-title"><%= data.settings.title %></h1>
+            <div class="rt-header-menu">
+                <% data.settings.links.forEach((link) => { %>
+                    <a <% if (link[2]) { %> href="<%= link[2] ? link[2] : '#' %>" <% } %> class="rt-header-menu-item <%= link[2] ? '' : 'is-disabled' %>">
+                        <span class="rt-header-menu-item-title"><%= link[0] %></span>
+                        <span class="rt-header-menu-item-description"><%= link[1] %></span>
+                    </a>
+                <% }) %>
+            </div>
+        </div>
+    </body>
+</html>

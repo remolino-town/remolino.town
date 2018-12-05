@@ -1,0 +1,23 @@
+{
+  "name": "remolino.town",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pitch serve",
+    "build": "pitch build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RemolinoTown/remolino.town.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RemolinoTown/remolino.town/issues"
+  },
+  "homepage": "https://github.com/RemolinoTown/remolino.town#readme",
+  "dependencies": {
+    "pitch-cli": "^0.7.0"
+  }
+}

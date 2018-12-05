@@ -1,0 +1,11 @@
+{
+    "title": "Remolino Town",
+    "links": [
+        ["Plaza", "Red social federada - Pleroma", "https://plaza.remolino.town"],
+        ["Pórtico", "Chat seguro - Matrix", "http://portico.remolino.town/"],
+        ["Tablones", "Documentos colaborativos - Etherpad", "http://tablones.remolino.town"],
+        ["Laboratorio", "Aprender UNIX", ""],
+        ["Biblioteca", "Compartir contenido libre", ""],
+        ["Wiki", "Todo sobre Remolino - Doku", "http://remolino.town/wiki/doku.php"]
+    ]
+}
